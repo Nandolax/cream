@@ -1,3 +1,11 @@
+echo "# cream" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/Nandolax/cream.git
+git push -u origin master
+                
+
 #This is where you would manually type the existing code in the client3.py, which is inside the jpm_module_1 folder (disregard copying the useless comments) so that you can avoid the dreaded tab editing issues in REPL particularly for the Python environment only
 
 #After manually copying the useful code in client3.py, you can make your changes here
